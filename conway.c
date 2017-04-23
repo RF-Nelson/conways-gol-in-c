@@ -33,7 +33,7 @@ char computeNewCellStatus(int row, int column, char currentGeneration[ROWS][COLU
     }
   }
 
-  printf("row: %d, column: %d, neighbor count: %d\n", row, column, livingNeighbors);
+  // printf("row: %d, column: %d, neighbor count: %d\n", row, column, livingNeighbors);
 
   if (currentGeneration[row][column] == '0') {
     if (livingNeighbors == 3) {
