@@ -1,4 +1,4 @@
-An implementation of [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) in C.
+# An implementation of [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) in C.
 
 The set of rules are summarized as follows:
 
@@ -13,6 +13,6 @@ The program is intended to be run from the command line like so:
 
 `./conway.out input.txt 5`
 
-In the example above, `input.txt` is a file holding the initial state of the grid and `5` is the number of generations we want to simulate. The formatting of the input file should match the included example.
+In the example above, `input.txt` is a file holding the initial state of the grid and `5` is the number of generations we want to simulate. The formatting of the input file should match the included `*.txt` examples.
 
 The result of the last generation will be saved as `output.txt`.
